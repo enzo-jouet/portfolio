@@ -52,21 +52,10 @@ open Panium.xcodeproj
 3. Bundle ID : `com.prple.panium`
 4. Build & Run sur iPhone
 
-### Option B — Sans Mac (Windows)
+### Option B — CI
 
-1. Pousser le repo sur GitHub
-2. Configurer Apple Developer + secrets GitHub (voir [docs/APPLE-DEVELOPER-SETUP.md](docs/APPLE-DEVELOPER-SETUP.md))
-3. Lancer **Panium TestFlight** depuis GitHub Actions
-
-## CI GitHub Actions
-
-| Workflow | Rôle |
-|----------|------|
-| `panium-ios.yml` | Build simulateur (manuel) |
-| `panium-bootstrap-signing.yml` | Cert + profils (sans Mac, une fois) |
-| `panium-testflight.yml` | IPA + TestFlight |
-
-Guide détaillé : [docs/TESTFLIGHT.md](docs/TESTFLIGHT.md)
+Build simulateur : workflow `panium-ios.yml`.  
+Release TestFlight : architecture décrite dans `docs/ci-partage.md` (secrets hors repo).
 
 ## Structure
 

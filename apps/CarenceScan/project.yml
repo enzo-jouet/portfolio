@@ -1,4 +1,4 @@
-name: CarenceScan
+﻿name: CarenceScan
 options:
   bundleIdPrefix: com.carencescan
   deploymentTarget:
@@ -23,7 +23,6 @@ targets:
     type: application
     platform: iOS
     configFiles:
-      Release: ci/Release-App.xcconfig
     sources:
       - path: CarenceScan
         excludes:

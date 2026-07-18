@@ -56,20 +56,10 @@ RAS/
 └── Resources/
 ```
 
-## TestFlight (CI GitHub Actions)
+## CI
 
-Même pipeline que SleepLab / TrajOc :
-
-1. **Une fois** : workflow `RAS — Bootstrap signing (sans Mac)` → secrets signing
-2. **Chaque release** : workflow `RAS TestFlight` (manuel uniquement)
-
-Guide détaillé : [docs/TESTFLIGHT.md](docs/TESTFLIGHT.md)
-
-| Workflow | Déclencheur |
-|----------|-------------|
-| `ras-ios.yml` | Manuel — build simulateur |
-| `ras-bootstrap-signing.yml` | Manuel — certificat + profil |
-| `ras-testflight.yml` | Manuel — IPA + TestFlight |
+Build simulateur via GitHub Actions (`ras-ios.yml`).  
+Pipeline TestFlight / signing : voir `docs/ci-partage.md` à la racine du portfolio (secrets hors repo).
 
 ## Tests
 

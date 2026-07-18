@@ -1,4 +1,4 @@
-name: RAS
+﻿name: RAS
 options:
   bundleIdPrefix: com.ras
   deploymentTarget:
@@ -23,7 +23,6 @@ targets:
     type: application
     platform: iOS
     configFiles:
-      Release: ci/Release-App.xcconfig
     sources:
       - path: RAS
         excludes:

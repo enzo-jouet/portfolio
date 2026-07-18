@@ -1,4 +1,4 @@
-name: BeatDeal
+﻿name: BeatDeal
 options:
   bundleIdPrefix: com.cashthetrain
   deploymentTarget:
@@ -23,7 +23,6 @@ targets:
     type: application
     platform: iOS
     configFiles:
-      Release: ci/Release-App.xcconfig
     sources:
       - path: BeatDeal
         excludes:

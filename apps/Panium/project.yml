@@ -1,4 +1,4 @@
-name: Panium
+﻿name: Panium
 options:
   bundleIdPrefix: com.prple
   deploymentTarget:
@@ -23,7 +23,6 @@ targets:
     type: application
     platform: iOS
     configFiles:
-      Release: ci/Release-App.xcconfig
     sources:
       - path: Panium
         excludes:

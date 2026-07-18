@@ -1,4 +1,4 @@
-# Génération du projet Xcode : brew install xcodegen && xcodegen
+﻿# GÃ©nÃ©ration du projet Xcode : brew install xcodegen && xcodegen
 name: SleepLab
 options:
   bundleIdPrefix: com.prple
@@ -22,7 +22,6 @@ targets:
     type: application
     platform: iOS
     configFiles:
-      Release: ci/Release-App.xcconfig
     sources:
       - path: SleepLab
         excludes:
@@ -40,7 +39,6 @@ targets:
     type: app-extension
     platform: iOS
     configFiles:
-      Release: ci/Release-Widget.xcconfig
     sources:
       - SleepLabWidget
       - path: SleepLab/Activity

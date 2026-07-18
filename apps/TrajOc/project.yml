@@ -1,4 +1,4 @@
-# Génération du projet Xcode : brew install xcodegen && xcodegen
+﻿# GÃ©nÃ©ration du projet Xcode : brew install xcodegen && xcodegen
 name: TrajOc
 options:
   bundleIdPrefix: com.trajoc
@@ -22,7 +22,6 @@ targets:
     type: application
     platform: iOS
     configFiles:
-      Release: ci/Release-App.xcconfig
     sources:
       - path: TrajOc
         excludes:
@@ -40,7 +39,6 @@ targets:
     type: app-extension
     platform: iOS
     configFiles:
-      Release: ci/Release-Widget.xcconfig
     sources:
       - TrajOcWidget
       - path: TrajOc/Helpers/WidgetBridge.swift

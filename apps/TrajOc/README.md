@@ -82,21 +82,10 @@ open TrajOc.xcodeproj
 
 `TrajOc.xcodeproj` est généré par XcodeGen — ne pas le committer (`.gitignore`).
 
-## Clés API (obligatoire pour TestFlight fonctionnel)
+## Clés API (local)
 
-Inscription gratuite, puis ajoute ces **secrets GitHub** (Settings → Secrets → Actions) :
-
-| Secret | Où l'obtenir |
-|--------|----------------|
-| `SNCF_API_KEY` | [numerique.sncf.com/startup/api](https://numerique.sncf.com/startup/api/) — **gratuit** 150k req/mois (trains, TER) |
-| `ORS_API_KEY` | [account.heigit.org](https://account.heigit.org/manage/key) — voiture, vélo, marche |
-| `JCDECAUX_API_KEY` | [developer.jcdecaux.com](https://developer.jcdecaux.com) — vélos |
-
-(`NAVITIA_API_KEY` accepté en alias de `SNCF_API_KEY` si tu en as déjà un.)
-
-Le workflow **TestFlight** injecte ces clés dans l'app au build. Sans elles, l'app s'installe mais les itinéraires échouent.
-
-En local : copie `TrajOc/Config/APIKeys.example.swift` → `APIKeys.swift` et renseigne tes clés.
+Copie `TrajOc/Config/APIKeys.example.swift` → `APIKeys.swift` et renseigne tes propres clés  
+(SNCF / OpenRouteService / JCDecaux). Aucune clé n’est commitée dans ce portfolio.
 
 ## Avertissement
 
