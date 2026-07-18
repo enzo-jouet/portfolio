@@ -9,7 +9,7 @@ Apps natives Swift/SwiftUI, React Native (Expo), et produits web en production.
 | **Email** | [jouet.enzo@gmail.com](mailto:jouet.enzo@gmail.com) |
 | **LinkedIn** | [Enzo Jouet](https://www.linkedin.com/in/enzo-jouet-bb187a222) |
 | **Téléphone** | [07 68 20 98 54](tel:+33768209854) |
-| **GitHub** | [github.com/PrpleRat](https://github.com/PrpleRat) |
+| **GitHub** | [github.com/enzo-jouet](https://github.com/enzo-jouet) |
 | **Site live** | [voisintech.fr](https://www.voisintech.fr) |
 
 ---

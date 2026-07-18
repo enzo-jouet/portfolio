@@ -22,7 +22,7 @@ BeatBill/
 └── package.json
 ```
 
-Repo dédié : https://github.com/PrpleRat/BeatBill
+Repo dédié : https://github.com/enzo-jouet/BeatBill
 
 ## Dev local
 

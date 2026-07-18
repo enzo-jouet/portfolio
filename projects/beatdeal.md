@@ -7,7 +7,7 @@
 | Stack | Swift · SwiftUI · UIKit (PDF) · UserDefaults |
 | Modèle | App payante App Store · 100 % offline |
 | Code | [`apps/BeatDeal`](../apps/BeatDeal) |
-| Repo public | https://github.com/PrpleRat/BeatDeal |
+| Repo public | https://github.com/enzo-jouet/BeatDeal |
 | iOS | 17+ |
 
 ## Problème résolu

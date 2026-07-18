@@ -7,7 +7,7 @@
 | Stack | Swift · SwiftUI · MapKit · Widgets · Background tasks |
 | APIs | Navitia · OpenRouteService · JCDecaux · Nominatim |
 | iOS | 17+ |
-| Repo | https://github.com/PrpleRat/TrajOc |
+| Repo | https://github.com/enzo-jouet/TrajOc |
 
 ## Problème résolu
 

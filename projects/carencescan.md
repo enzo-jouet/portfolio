@@ -7,7 +7,7 @@
 | Stack | Swift · SwiftUI · moteur de scoring JSON · PDF |
 | Approche | 100 % local · pas d’API externe |
 | Bundle ID | `com.carencescan.app` |
-| Repo | https://github.com/PrpleRat/CarenceScan |
+| Repo | https://github.com/enzo-jouet/CarenceScan |
 
 ## Flux
 
